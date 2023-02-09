@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+
+}
+.main{
+   
+    width: 100%;
+    height: 150vh;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    position: sticky;
+    top:0;
+    background-color: white;
+    box-shadow:0 10px 15px rgba(182, 179, 179, 0.356);
+    z-index: 10;
+}
+.search{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    left:3%;
+}
+.search input::placeholder{
+text-align: center;
+
+    
+}
+.search .fa-solid{
+    position: relative;
+    right: 55%;
+    top:30%;
+    font-size: 120%;
+    
+
+}
+.search input{
+    border-radius: 25px;
+    height: 75%;
+    position:relative;
+    top: 10%;
+    left: 15%;
+}
+
+
+.logo{
+    height: 50%;
+    width: 10%;
+    position: relative;
+    top: 10%;
+}
+.logo .x{
+    color: blue;
+    font-size: 200%;
+
+}
+.icon{
+    width: 67%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 10%;
+    top: 25%;
+
+}
+.icon a{
+    display: flex;
+    text-decoration: none;
+}
+.icon a p{
+    position: relative;
+    left: 2%;
+    top: 4%;
+   
+    color: #333;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+}
+.icon a .a,.b ,.c,.d,.e{
+    position:relative;
+    color: #333;
+left:-5px ;
+top: -2px;
+} 
+.divprofile{
+    display: flex;
+    width: 35%;
+    height: 100%;
+
+
+    border-radius: 50%;
+    /* position: relative;
+left: 1050px;
+top: 10%; */
+
+}
+.divprofile .profile{
+    border-radius: 50%;
+    width: 15%;
+    height: 65%;
+}
+.divprofile .fa-solid{
+    position: relative;
+    left: -15px;
+    top:0;
+    font-size: 60%;
+    color: green;
+}
+.content{
+    width: 100%;
+    height: 110%;
+    background-color: rgba(221, 218, 218, 0.733);
+    
+}
+.innercontent{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    left: 5%;
+    top:5%;
+    background-color:transparent;
+    display: flex;
+   
+}
+ .img{
+    width: 30%;
+    height: 90%;
+    margin-right: 1%;
+   
+}
+ .bar{
+   margin-right: 1%;
+    width: 40%;
+    height: 17%;
+    background-color: white;
+}
+.news{
+    width: 30%;
+height: 70%;
+
+}
+.topcontent{
+    width:100%;
+    height: 100%;
+    
+}
+.topinnercontent{
+    width:100%;
+    height: 50%;
+    background-color:white;
+
+}
+.bottomcontent{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    margin-top: 2%;
+}
+.innerimg{
+    width: 100%;
+    height: 25%;
+    border-bottom: 2px solid aliceblue;
+}
+.innerimg img{
+    width: 100%;
+    height: 100%;
+}
+.profileimg{
+    height: 15%;
+    width: 20%;
+    position: relative;
+    top: -30px;
+    left: 10%;
+}
+.profileimg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid aliceblue;
+
+}
+.topinnercontent h2,h3{
+    margin-left: 10%;
+
+}
+.topinnercontent h3{
+    color: orange;
+}
+.topinnercontent .profilepara{
+    position: relative;
+    left:7%;
+    width: 90%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.topinnercontent .profilepara span{
+    color: rgba(3, 110, 250, 0.753);
+}
+.topbottom{
+margin-top: 5%;
+    width: 100%;
+    height: 25%;
+    border-top: 3px solid aliceblue;
+    display: flex;
+}
+.topbottomleft{
+    width: 50%;
+    height: 95%;
+    margin-top: 2%;
+    border-right: 3px solid aliceblue;
+}
+.topbottomright{
+    width: 50%;
+    height: 95%;
+    margin-top: 2%;
+}
+.topbottomleft p{
+    text-align: center;
+    margin-top: 30%;
+}
+.topbottomright p{
+    text-align: center;
+    margin-top: 30%;
+}
+.topbottomright p .fa-sharp{
+    color: goldenrod;
+}
+.bar .profileimg{
+    height: 25%;
+    width: 100%;
+    position: relative;
+    top:10%;
+    left: 10%;
+    display: flex;
+   
+}
+.bar .profileimg img{
+    height: 100%;
+    width: 17%;
+    border-radius: 50%;
+    border: 2px solid aliceblue;
+   
+}
+.bar .profileimg p{
+    position: relative;
+    left:-4px;
+    top: 15%;
+}
+.bar .barbottom{
+width: 100%;
+height: 55%;
+position: relative;
+top: 25%;
+border-top:2px solid aliceblue ;
+display: flex;
+}
+.bar .barbottomcontent{
+    width: 25%;
+    height: 90%;
+    border:none;
+    border-right: 2px solid aliceblue;
+    
+    background-color: white;
+
+}
+.bar .barbottomcontent .fa-solid{
+    color: blue;
+}
+.bar .barbottomcontent:hover{
+    background-color: blue;
+    color: white;
+}
+.bar .line{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    position: relative;
+    bottom: -50px;
+  
+}
+.line .innerline{
+    width: 75%;
+    height: 100%;
+    border-top: 2px solid black;
+    position: relative;
+    bottom: -5px;
+}
+.line innerbartop{
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.bottomcontent .recent {
+    width: 80%;
+    height: 35%;
+    position: relative;
+    left: 10%;
+
+}
+.bottomcontent .group {
+    width: 80%;
+    height: 35%;
+    position: relative;
+    left: 10%;
+
+}
+.bottomcontent .hashtag {
+    width: 80%;
+    height: 20%;
+    position: relative;
+    left: 10%;
+border-bottom: 2px solid aliceblue;
+}
+.bottomcontent .hashtag .fa-solid{
+    color: blue;
+    margin-right: 2%;
+}
+.bottomcontent .recent .fa-solid{
+    color: blue;
+    margin-right: 2%;
+}
+.bottomcontent .hashtag .fa-solid{
+    color: blue;
+    margin-right: 2%;
+}
+.bottomcontent .group .ion{
+    color: blue;
+    margin-right: 2%; 
+}
+.bottomcontent .paraline{
+    text-align: center;
+    color: blue;
+    margin-top: 3%;
+}
+.news .topnews{
+    width: 100%;
+    height: 50%;
+    
+    
+    background-color: white;
+}
+.ad{
+    background-color:white;
+    width: 100%;
+    height: 30%;
+    margin-top: 2%;
+}
+.topnews .heading{
+    margin-right: 3%;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.topnews .heading p{
+   padding-top: 3%;
+   padding-right: 2%;
+    color:blue;
+}
+.topnews .heading h3{
+    margin-top: 2%;
+}
+.topnews .comnews{
+    width: 80%;
+    height: 15%;
+    position: relative;
+    left: 10%;
+
+}
+.newslastline{
+color: blue;
+position: relative;
+left: 10%;
+}
+.ad .title{
+    text-align: center;
+    padding-top: 1%;
+
+}
+.adcontent{
+    width: 100%;
+    height: 95%;
+}
+.adcontentpara{
+    text-align: center;
+    padding-top:10% ;
+
+}
+.imgflex {
+width: 70%;
+height: 35%;
+display: flex;
+padding-left: 20%;
+
+}
+.imgflex img{
+    width: 40%;
+    height: 100%;
+    border-radius: 50%;
+}
+.adbottom{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.adbottom button{
+    border-radius: 25px;
+    border-color: blue;
+    color: blue;
+}
+.news .licence{
+    width: 95%;
+    height: 20%;
+    margin-top: 2%;
+    background-color:transparent;
+    
+}
+.news .licence .firstlist{
+    display: flex;
+    position: relative;
+    left: 5%;
+    justify-content: space-between;
+}
+.news .licence .lastlist{
+    display: flex;
+    position: relative;
+    left: 7%;
+    justify-content: space-between;
+}
+.brand .fa-brands{
+    color: blue;
+}
+.brand{
+    position: relative;
+    left: 15%;
+    top:5%;
+}
+.examlink{
+    color: #fff;
+    width: 200px;
+    height: 5vh;
+    background-color: rgb(163, 163, 252);
+    border: 3px solid gold;
+    border-radius: 25px;
+    position: absolute;
+    top: 167%;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    left: 37%;
+}
